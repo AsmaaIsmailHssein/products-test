@@ -1,0 +1,10 @@
+<suit name="Test">
+    <test name="Test_Product">
+        <classes>
+            <class name="Tests.ProductsTests"/>
+        </classes>
+        <classes>
+            <class name="Tests.CartTests"/>
+        </classes>
+    </test>
+</suit>
