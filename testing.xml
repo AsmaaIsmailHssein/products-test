@@ -1,10 +1,8 @@
-<suit name="Test">
-    <test name="Test_Product">
+<suite name="Test Product" verbose="1" >
+    <test name="Test Product">
         <classes>
-            <class name="Tests.ProductsTests"/>
-        </classes>
-        <classes>
-            <class name="Tests.CartTests"/>
+            <class name="Tests.ProductsTests" > </class>
+            <class name="Tests.CartTests" > </class>
         </classes>
     </test>
-</suit>
+</suite>

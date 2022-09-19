@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class ProductsTests extends BaseTests {
 
-    @Test(priority = 0)
+    @Test
     public void searchedProductTest()
     {
          ProductsPage productsPage = new ProductsPage(driver);

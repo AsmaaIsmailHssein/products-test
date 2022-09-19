@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class CartTests extends BaseTests{
-    @Test(priority = 1)
+    @Test
     public void addToCartTest()
     {
         ProductsPage productsPage = new ProductsPage(driver);
